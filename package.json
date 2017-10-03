@@ -1,0 +1,22 @@
+{
+  "name": "atv-pairing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marc Klefter",
+  "dependencies": {
+    "axlsign": "git+https://github.com/wavesplatform/curve25519-js.git",
+    "big-integer": "^1.6.25",
+    "bplist-creator": "0.0.7",
+    "bplist-parser": "^0.1.1",
+    "elliptic": "^6.4.0",
+    "js-sha1": "^0.4.1",
+    "lodash": "^4.17.4",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
