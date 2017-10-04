@@ -10,8 +10,11 @@ Run it as follows:
 
     node index.js -a <Apple TV IP address>
 
-If pairing has not been performed, you'll have the enter PIN code displayed by the Apple TV. The pairing information 
+If pairing has not been performed, you'll have to enter the PIN code displayed by the Apple TV. The pairing information 
 will be stored in the file `atv.json` in the project directory.
 
-You may now enter the commands **play** for playing a sample video, **stop** to stop playback or **exit** to quit the
-session.
+You may now enter the following commands:
+
+- **play** play a sample video 
+- **stop** stop playback 
+- **exit** quit the session
